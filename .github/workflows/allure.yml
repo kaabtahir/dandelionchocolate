@@ -2,7 +2,7 @@ name: allure-report
 "on":
   push:
     branches:
-      - allure
+      - master
 permissions:
   contents: write
 
