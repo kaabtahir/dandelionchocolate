@@ -2,7 +2,7 @@ name: allure-report
 "on":
   push:
     branches:
-      - master
+      - allure
 permissions:
   contents: write
 
@@ -48,7 +48,7 @@ jobs:
         if: always()
         continue-on-error: true
         with:
-          ref: master
+          ref: allure
           path: allure
 
       - name: Generate Allure Report
@@ -63,5 +63,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.ALLURE_SECRET }}
-          publish_branch: master
+          publish_branch: allure
           publish_dir: allure-history
