@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 02 18:16:55 GMT 2023","Mon Jan 02 18:17:05 GMT 2023","10043","","Product page","","","","Verify the total number of product that are sold out",""
+"failed","Mon Jan 02 18:17:11 GMT 2023","Mon Jan 02 18:17:20 GMT 2023","9255","","Product page","","","","Get the total number of product that are out of stock",""
+"passed","Mon Jan 02 18:17:05 GMT 2023","Mon Jan 02 18:17:11 GMT 2023","5291","","Product page","","","","Get the total number of product",""
