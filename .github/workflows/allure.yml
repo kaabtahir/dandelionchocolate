@@ -3,6 +3,9 @@ name: allure-report
   push:
     branches:
       - master
+permissions:
+  contents: write
+
 jobs:
   generate-report:
     runs-on: ubuntu-latest
