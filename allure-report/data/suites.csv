@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 02 17:50:24 PKT 2023","Mon Jan 02 17:50:44 PKT 2023","19572","","Product page","","","","Verify the total number of product that are sold out",""
+"failed","Mon Jan 02 17:50:57 PKT 2023","Mon Jan 02 17:51:11 PKT 2023","14017","","Product page","","","","Get the total number of product that are out of stock",""
+"passed","Mon Jan 02 17:50:44 PKT 2023","Mon Jan 02 17:50:57 PKT 2023","12602","","Product page","","","","Get the total number of product",""

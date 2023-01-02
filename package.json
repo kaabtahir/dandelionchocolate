@@ -1,0 +1,24 @@
+{
+  "name": "dandelionchocolate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ui-allure": "cypress run --browser chrome --spec cypress/tests/**.js --env allure=true",
+    "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
+  },
+  "author": "Kaab",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^12.2.0"
+  },
+  "dependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "allure-commandline": "^2.20.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "save-dev": "^0.0.1-security"
+  }
+}
